@@ -1,0 +1,22 @@
+
+	<ul class="pagination" >
+		<li><a routerLink="/"  class="btn btn-success btn-sm">
+			<span class="glyphicon glyphicon-home"></span> Home</a>
+		</li>
+		<li><a routerLink="/services"  class="btn btn-success btn-sm">
+			<span class="glyphicon glyphicon-wrench"></span> Services</a>
+		</li>
+		<li class="dropdown">
+      <a class="dropdown-toggle btn btn-success btn-sm" data-toggle="dropdown" routerLink="/">
+        <span class="glyphicon glyphicon-book"></span> Portfolio</a>
+      <ul class="dropdown-menu">
+				<li><a routerLink="/portfolio">Publications and Projects</a></li>
+				<li><a routerLink="/resume">Resume 2019</a></li>
+        <li><a routerLink="/about">About Me</a></li>
+      </ul>
+		</li>
+		<li><a routerLink="/contact" class="btn btn-success btn-sm">
+		<span class="glyphicon glyphicon-envelope"></span> Contact</a>
+    </li>
+	</ul>
+	<router-outlet></router-outlet><app-footer></app-footer>

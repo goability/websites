@@ -1,0 +1,21 @@
+{
+  "personalizations": [
+    {
+      "to": [
+        {
+          "email": "matt.chandleraz@gmail.com"
+        }
+      ],
+      "subject": "Message from mattchandler.us"
+    }
+  ],
+  "from": {
+    "email": "matt@mattchandler.us"
+  },
+  "content": [
+    {
+      "type": "text/plain",
+      "value": "This is a sample message"
+    }
+  ]
+}
